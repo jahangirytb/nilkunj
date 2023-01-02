@@ -1,0 +1,255 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 1300px;
+}
+.border-all{
+    border: 1px blue solid;
+}
+.col-25{
+  width: 25%;
+  float: left;
+}
+.col-30{
+  width: 29%;
+}
+.col-50{
+  width: 49%;
+  float: left;
+}
+.col-65{
+  width: 65%;
+  align-content: left;
+}
+
+.container-full{
+    background-color: #fff;
+    margin: 50px 0;
+    padding: 0;
+    
+}
+
+.contact-f{
+  position: fixed;
+  align-content: right;
+  margin-top: 90%;
+  margin-left: 90%;
+  padding: 20px;
+  border-radius: 50px;
+  background-color: green;
+}
+
+
+
+
+/* Menu Bar */
+
+.section-2{
+   
+    padding: 10px 20px;
+    
+}
+
+.menu{
+    margin: 0 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    display: inline;
+    box-shadow: 5px 5px 2px 0.05px rgb(174, 174, 174);
+    color: blue;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.menu:hover{
+  box-shadow: 5px 5px 10px #AEAEAE;
+  
+}
+.menu-container{
+    display: inline;
+    position: relative;
+    
+}
+.menu-content{
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  text-align: center;
+  width: 120px;
+  display: none;
+  padding: 2px 10px;
+  background-color: #fff;
+  box-shadow: 5px 5px 2px 0.05px rgb(174, 174, 174);
+  border-radius: 20px;
+}
+.menu-content a{
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Galada', cursive;
+    font-style: italic;
+    color: red;
+    padding: 3px 0;
+}
+.menu-content a:hover{
+  font-size: 15PX;
+  color: green;
+}
+.menu-container:hover .menu-content{
+    display: block;
+    padding-top: 10px;
+}
+
+
+
+
+
+/* Notice */
+
+.section3{
+    display: inline-block;
+}
+.notice{
+    padding: 30px;
+    float: left;
+    font-family: 'Galada', cursive;
+    border: 1px blue solid;
+    margin: 20px;
+}
+.notice .p-h{
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 0px 0px 10px blue;
+    font-size: 35px;
+    color: red;
+
+}
+.notice p{
+  font-family: 'Galada', cursive;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+.search-box{
+    padding: 10px 100px;
+    float: right;
+    height: 100px;
+}
+
+
+ .search-box #search{
+   width: 99%;
+   height: 40px;
+   display: block;
+   position: relative;
+   margin:  10px auto;
+   border: 1px blue solid;
+   background: #eff;
+   padding: 5px 8px;
+   font-family: Verdana;
+   font-size: 13px;
+   font-weight: 450;
+   border-radius: 5px;
+   color: #121;
+   box-shadow: 5px 5px 2px 0.05px rgb(174, 174, 174);
+  }
+  .search-box #search::placeholder{
+   color: #121;
+  }
+
+
+    /* Tag List */
+
+  .section3 ul li{
+   display: none;
+  }
+  .section3 .for_value ul li a{
+   width: calc(100% - 20px);
+   padding: 5px 10px;
+   height: 40px;
+   display: inline-block;
+   margin: 06px auto;
+   color: #eff;
+   text-decoration: none;
+   background: rgba(255,255,255,0.3);
+   display: flex;
+   align-items: center;
+   border-radius: 2.5px;
+   font-family: Verdana;
+   font-size: 13.5px;
+  }
+ 
+.section3 .for_value ul{
+  display: inline-block;
+  height: 20px;
+  width: auto;
+  display: none;
+  overflow: hidden;
+  
+}
+.section3 .for_value ul li{
+  list-style: none;
+  margin: 10px;
+}
+.section3 .for_value ul li a{
+  text-decoration: none;
+  padding: 3px 5px;
+  color: blue;
+  font-size: 15px;
+  font-family: 'Boshonto', sans-serif;
+}
+
+
+/* Footer */
+.footer{
+  margin: 150px 20px;
+  position: relative;
+  display: block;
+  border-top: 1px blue solid;
+  padding-top: 30px;
+
+}
+.footer .mail img{
+  width: 70%;
+  margin: 10px;
+}
+.footer .mail p{
+  margin: 10px 0 0 10px;
+}
+.footer .mail a{
+  text-decoration: none;
+  color: red;
+  font: italic;
+  background-color: #eff;
+  box-shadow: 5px 5px 2px rgb(174, 174, 174);
+}
+.footer h1{
+  color: blue;
+}
+.footer li{
+  list-style: none;
+  padding: 5px 40px;
+}
+.footer li a{
+  text-decoration: none;
+  color: red;
+  font: italic;
+  background-color: #eff;
+  box-shadow: 5px 5px 2px rgb(174, 174, 174);
+}
+.footer .col-25 a:hover{
+  color: blue;
+  font-size: 20px;
+  padding: 0;
+}
+.Developed{
+  display: block;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  text-align: center;
+}

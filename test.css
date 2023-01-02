@@ -1,0 +1,16 @@
+.container {
+  height: 500px;
+  width: 1280px;
+  
+}
+.container .book-group{
+  background-color: white;
+}
+.container .book-group div{
+  display: inline-block;
+  background: green;
+}
+.container .book-group div img{
+  height: 400px;
+  width: 300px;
+}

@@ -1,0 +1,38 @@
+
+/* Author main Css */
+
+.container-full .section4{
+  height: 800px;
+}
+.container-full .section4 .box1 div{
+  text-align: center;
+  margin: 0 30px;
+}
+.container-full .section4 .box1 div h1{
+  color: blue;
+  font-size: 25px;
+  margin: 10px;
+}
+.container-full .section4 .box1 div p{
+  color: red;
+  font-size: 20px;
+  margin: 10px 30px 50px 30px;
+}
+.container-full .section4 .box1 img{
+  width: 500px;
+  margin-top: 50px;
+}
+.container-full .section4 .box2 h1{
+  text-align: center;
+  color: blue;
+  font-size: 25px;
+  margin: 95px 0;
+}
+.container-full .section4 .box2 .contant{
+  width: 700px;
+  padding-bottom: 50px;
+}
+.container-full .section4 .box2 .contant img{
+  width: 190px;
+  padding: 20px 5px;
+}

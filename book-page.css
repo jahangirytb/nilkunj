@@ -1,0 +1,18 @@
+
+/* Book Group*/
+.book-group{
+   margin-left: 30px;
+    margin-top: 30px;
+}
+.book-img{
+    width: 200px;
+}
+.book-box{
+    margin: 0 14px;
+    display: inline-block;
+    padding: 9px;
+    background-color: #fff;
+    border: 1px blue solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px 0.05px rgb(174, 174, 174);
+}
